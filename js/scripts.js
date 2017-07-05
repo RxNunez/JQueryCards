@@ -34,6 +34,7 @@ $(document).ready(function() {
   // })
   $(".col-md-3").click(function() {
     $(this).find(".definition").toggle();
+    $(this).find("h1").toggle();
   })
   // $("#booleans").click(function() {
   //   $("#booleans + .definition").toggle();

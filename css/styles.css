@@ -15,6 +15,13 @@ body {
   background: lightgrey;
   border-radius: 5%;
   margin: 0 1%;
+  position: relative;
+}
+
+.col-md-3 p {
+  position: absolute;
+  padding: 30% 0;
+  text-align: center;
 }
 
 .row {
